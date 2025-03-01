@@ -1,0 +1,13 @@
+show
+add
+Jaket Winter
+Baju
+Wool & Polyester
+Abu-Abu
+Anjing 
+XL
+SnowPaw
+275000
+7 
+show
+exit
