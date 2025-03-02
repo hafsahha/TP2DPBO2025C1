@@ -13,8 +13,8 @@ Berikut adalah struktur pewarisannya:
 1. **PetShop** (kelas dasar) menyimpan atribut umum yang mencakup:
    - ID
    - Nama Produk
-   - Stok
-   - Harga
+   - Stok Produk
+   - Harga Produk
    - Foto (hanya digunakan dalam PHP)
 
 2. **Aksesoris** (kelas turunan dari PetShop) menambahkan atribut tambahan yang berkaitan dengan karakteristik produk:
@@ -25,7 +25,7 @@ Berikut adalah struktur pewarisannya:
 3. **Baju** (kelas turunan dari Aksesoris) memperluas fungsionalitas dengan atribut yang lebih spesifik untuk pakaian:
    - Target Pengguna (Misalnya: Anjing, Kucing, Kelinci)
    - Ukuran (Size)
-   - Merek (Brand)
+   - Merk (Brand)
 
 Dengan struktur ini, **Multilevel Inheritance** memungkinkan program untuk **mengelompokkan atribut secara hierarkis**, menjaga efisiensi, serta mempermudah pengelolaan data produk dalam sistem.
 
