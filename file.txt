@@ -1,0 +1,28 @@
+TC 1
+show
+add
+Jaket Winter
+Baju
+Wool & Polyester
+Abu-Abu
+Anjing 
+XL
+SnowPaw
+275000
+7 
+show
+exit
+
+TC 2
+add
+Ultra Raincoat
+Aksesoris
+PVC & Nylon
+Biru
+Anjing
+One Size
+PawProtector
+180000
+12
+show
+exit
