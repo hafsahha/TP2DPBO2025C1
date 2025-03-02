@@ -1,7 +1,7 @@
 # Tugas Praktikum 2 - DPBO
 
 ## Janji
-_Saya, **Hafsah Hamidah** dengan NIM **2311474**, mengerjakan **Tugas Praktikum 1** dalam mata kuliah **DPBO** dengan sebaik-baiknya demi keberkahan-Nya.  
+_Saya, **Hafsah Hamidah** dengan NIM **2311474**, mengerjakan **Tugas Praktikum 2** dalam mata kuliah **DPBO** dengan sebaik-baiknya demi keberkahan-Nya.  
 Saya berjanji tidak melakukan kecurangan sebagaimana yang telah dispesifikasikan. **Aamiin.**_
 ## Diagram
 <img src="TP2_DPBO.jpg" style="width: 100%;">
