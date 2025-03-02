@@ -31,11 +31,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Menambahkan 5 produk awal ke dalam list
-        data.add(new Baju(1, "Hoodie Supreme Pet", 150000, 20, "Baju", "Fleece", "Merah", "Anjing", "L", "HypePet"));
-        data.add(new Baju(2, "Streetwear Meow", 135000, 12, "Baju", "Denim", "Hitam", "Kucing", "M", "PurrMode"));
-        data.add(new Baju(3, "Raincoat Pawshion", 175000, 10, "Aksesoris", "Waterproof Nylon", "Kuning", "Anjing", "XL", "Pawshion"));
-        data.add(new Baju(4, "Tuxedo GentlePaws", 250000, 6, "Baju", "Satin", "Hitam", "Kucing", "S", "GentlePaws"));
-        data.add(new Baju(5, "Bandana Rebel Tail", 95000, 15, "Aksesoris", "Cotton", "Merah", "Kelinci", "One Size", "Rebel Tail"));
+        data.add(new Baju(1, "Hoodie Supreme Pet", 150000, 20, "Hoodie", "Fleece", "Merah", "Anjing", "L", "HypePet"));
+        data.add(new Baju(2, "Streetwear Meow", 135000, 12, "Rompi", "Denim", "Biru", "Kucing", "M", "PurrMode"));
+        data.add(new Baju(3, "Raincoat Pawshion", 175000, 10, "Jas Hujan", "Nylon", "Kuning", "Anjing", "XL", "Pawshion"));
+        data.add(new Baju(4, "Tuxedo GentlePaws", 250000, 6, "Tuxedo", "Satin", "Hitam", "Kucing", "S", "GentlePaws"));
+        data.add(new Baju(5, "Bandana Rebel Tail", 95000, 15, "Bandana", "Cotton", "Merah", "Kelinci", "One Size", "Rebel_Tail"));
 
         int last_id = 5;
         String command;
@@ -52,7 +52,7 @@ public class Main {
                 System.out.print("Masukkan Nama Produk: ");
                 String nama = scanner.nextLine();
 
-                System.out.print("Masukkan Jenis (Baju/Aksesoris): ");
+                System.out.print("Masukkan Jenis: ");
                 String jenis = scanner.nextLine();
 
                 System.out.print("Masukkan Bahan: ");

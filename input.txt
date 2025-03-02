@@ -1,0 +1,36 @@
+============================================
+ Test Case untuk Program (Java, C++, Python)
+============================================
+
+**TC 1 - Menampilkan Data, Menambah Produk, dan Menampilkan Kembali**
+--------------------------------------------------
+Input:
+show
+add
+Jaket Winter
+Jaket
+Wool & Polyester
+Abu-Abu
+Anjing
+XL
+SnowPaw
+275000
+7
+show
+exit
+
+**TC 2 - Menambah Produk dan Menampilkan Daftar**
+--------------------------------------------------
+Input:
+add
+Ultra Raincoat
+Jas Hujan
+PVC
+Biru
+Anjing
+One Size
+PawProtector
+180000
+12
+show
+exit

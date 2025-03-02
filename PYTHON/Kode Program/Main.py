@@ -24,11 +24,12 @@ def main():
     data = []
 
     # Menambahkan 5 produk awal ke dalam list
-    data.append(Baju(1, "Hoodie Supreme Pet", 150000, 20, "Baju", "Fleece", "Merah", "Anjing", "L", "HypePet"))
-    data.append(Baju(2, "Streetwear Meow", 135000, 12, "Baju", "Denim", "Hitam", "Kucing", "M", "PurrMode"))
-    data.append(Baju(3, "Raincoat Pawshion", 175000, 10, "Aksesoris", "Waterproof Nylon", "Kuning", "Anjing", "XL", "Pawshion"))
-    data.append(Baju(4, "Tuxedo GentlePaws", 250000, 6, "Baju", "Satin", "Hitam", "Kucing", "S", "GentlePaws"))
-    data.append(Baju(5, "Bandana Rebel Tail", 95000, 15, "Aksesoris", "Cotton", "Merah", "Kelinci", "One Size", "Rebel Tail"))
+    data.append(Baju(1, "Hoodie Supreme Pet", 150000, 20, "Hoodie", "Fleece", "Merah", "Anjing", "L", "HypePet"))
+    data.append(Baju(2, "Streetwear Meow", 135000, 12, "Rompi", "Denim", "Biru", "Kucing", "M", "PurrMode"))
+    data.append(Baju(3, "Raincoat Pawshion", 175000, 10, "Jas Hujan", "Nylon", "Kuning", "Anjing", "XL", "Pawshion"))
+    data.append(Baju(4, "Tuxedo GentlePaws", 250000, 6, "Tuxedo", "Satin", "Hitam", "Kucing", "S", "GentlePaws"))
+    data.append(Baju(5, "Bandana Rebel Tail", 95000, 15, "Bandana", "Cotton", "Merah", "Kelinci", "One Size", "Rebel_Tail"))
+
 
     last_id = 5
     print("Masukkan Command yang diinginkan:\n- show\n- add\n- exit")
@@ -40,7 +41,7 @@ def main():
             print("Masukkan detail produk baru:")
 
             nama = input("Masukkan Nama Produk: ").strip()
-            jenis = input("Masukkan Jenis (Baju/Aksesoris): ").strip()
+            jenis = input("Masukkan Jenis : ").strip()
             bahan = input("Masukkan Bahan: ").strip()
             warna = input("Masukkan Warna: ").strip()
             untuk = input("Produk Untuk (Anjing/Kucing/dll.): ").strip()
